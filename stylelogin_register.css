@@ -1,0 +1,133 @@
+body{
+    background-image:URL(193962.jpg);
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+h3{
+    color: azure;
+}
+/* header style starts here */
+header {
+    background-color: #131313;
+    padding: 20px 0;
+    position: relative;
+    border-bottom: 1px solid #FFB320;
+    z-index: 1;
+}
+
+.hamburger-menu {
+    background-color: transparent;
+    border: 1px solid #FFB320;
+    padding: 3px 5px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger-menu .strip {
+    display: block;
+    height: 1px;
+    background-color: #FFB320;
+    margin: 4px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 1em;
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: #eee;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #FFB320;
+}
+
+#login-register-button {
+    background-color: #FFB320;
+    color: #131313;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+/* end: header styles */
+.flex {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+.login-register{
+
+    width: 550px;
+    margin: auto;
+    padding: 3%;
+   
+
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background-color: rgba(61, 61, 61, 0);
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+    
+}
+.form header h1{
+      margin: 22px;
+      
+  }
+.form input{
+    
+    font-family: "Roboto" ,sans-serif;
+    outline:1;
+    outline-color: azure;
+    box-sizing:border-box;
+    width: 350px;
+    margin: 20px;
+    background: #fcfafae7;
+    font-size: 15px;
+    padding:10px;
+   
+    justify-content: space-between;
+}
+#buttons button{
+    /* margin: 55px;
+    padding: 15px;
+    width: 200px;   */
+    background-color: #FFB320;
+    color:whitesmoke;
+    border-radius: 20px;
+    padding: 15px 25px;
+    font-size: 0.98em;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+   
+    
+}
+#buttons button:hover{
+    color: #131313;
+}
+#buttons h3{
+  text-decoration-color: rgba(0, 0, 0, 0.486);
+}
